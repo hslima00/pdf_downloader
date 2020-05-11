@@ -8,7 +8,7 @@ csv_url = open('csv_url.csv', 'w')
 # since its a .csv file we need to use csv lib to write to it
 csv_writer = csv.writer(csv_url)
 
-with open(r'books.csv') as csv_file:
+with open(r'C:\Users\hugoo\Desktop\books.csv') as csv_file:
     # get url from .csv
     books = csv.reader(csv_file)
     # skip first line

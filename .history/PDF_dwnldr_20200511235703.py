@@ -4,7 +4,7 @@ import csv
 
 # .csv file with given URL's
 # .csv file == ['index','title of book', 'URL']
-url_file = r'csv_url.csv'
+url_file = r'C:\Users\hugoo\Node.js\csv_url.csv'
 
 # DOWNLOADER
 with open(url_file, 'r') as csv_file:
